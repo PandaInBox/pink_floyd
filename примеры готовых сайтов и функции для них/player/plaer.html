@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Мой плеер</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="player">
+			<div class="paly_pause" id="-1"></div>
+			<div class="name_song">Название песни</div>
+			<div class="settings">
+				<div class="nextbtn" id="last_treck" data-id="-1">&#9668;</div>
+				<div class="nextbtn" id="next_treck" data-id="-1">&#9658;</div>
+				<div class="mute">&#9834;</div>
+				<input type="range" class="volume" min="0" max="100" value="100" />
+			</div>
+			<div class="bar">
+				<div class="setTime"></div>
+				<div class="range">
+					<div class="progress"></div>
+					<div class="load"></div>
+				</div>
+			</div>
+			<div class="time">0:00</div>
+		</div>
+		<!-- <div class="song" id="">
+			<div class="paly_pause_song"></div>
+			<div class="name_song_song">Название песни</div>
+			<div class="duration_song">0:00</div>
+		</div> -->
+	</div>
+</body>
+</html>

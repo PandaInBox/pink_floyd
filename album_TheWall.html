@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" href="css/style_pl.css">
+	<link href="css/style.css" rel="stylesheet">
+	<title></title>
+	<link rel="icon" href="img/PFicon.ico">
+	<link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+	<header>
+		<img src="img/PFLG.png" alt="logo" class="logo">
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.html">История</a></li>
+				<li>
+					<a href="album.html">Альбомы</a>
+					<ul class="s_links">
+						<li><a href="#">Wish You Were Here</a></li>
+						<li><a href="album_TheWall.html">The Wall</a></li>
+						<li><a href="#">The Division Bell</a></li>
+					</ul> 
+				</li>
+				<li><a href="#">Видеография</a></li>
+				<li><a href="gallery.html">Галерея</a></li>
+			</ul>
+
+		</nav>
+		<a href="#" class="contact"><button>Контакт</button></a>
+	</header>
+	<div class="wrapper">
+		<div class="main">
+			<div id="article">
+				<div class="album_thewall">
+					<div class="img_album_thewall">
+						<img src="img/2.jpg"/>
+					</div>
+					<div class="text_album_thewall">
+						<p>Альбом: The Wall</p>
+						<p>Исполнитель: Pink FLoyd</p>
+						<p><h5>1979 - рок</h5></p>
+					</div>
+				</div>
+					<div class="wrapper_player">
+						<div class="player">
+							<div class="paly_pause" id="-1"></div>
+							<div class="name_song">Название песни</div>
+							<div class="settings">
+								<div class="nextbtn" id="last_treck" data-id="-1">&#9668;</div>
+								<div class="nextbtn" id="next_treck" data-id="-1">&#9658;</div>
+								<div class="mute">&#9834;</div>
+								<input type="range" class="volume" min="0" max="100" value="100" />
+							</div>
+							<div class="bar_player">
+								<div class="setTime"></div>
+								<div class="range">
+									<div class="progress"></div>
+									<div class="load"></div>
+								</div>
+							</div>
+							<div class="time">0:00</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Курсовая работа</p> 
+		<p>Cтудент группы: ПИ-11-17-1</p>
+	</div>
+</body>
+</html>
